@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --color-lavender-blush: #fff0f3;
+  --color-sweet-salmon: #fb948e;
+  --color-cotton-rose: #f1c9c9;
+  --color-coffee-bean: #100606;
+  --color-dark-amaranth: #76112d;
+  --color-blush-rose: #dd6181;
+}
+
+.aa-font-display {
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.aa-font-heading-normal {
+  font-family: "Quattrocento", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.aa-font-heading-medium {
+  font-family: "Quattrocento", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.aa-font-heading-semibold {
+  font-family: "Quattrocento", system-ui;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.aa-font-heading-bold {
+  font-family: "Quattrocento", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.aa-font-body-normal {
+  font-family: "Lora", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.aa-font-body-medium {
+  font-family: "Lora", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.aa-font-body-semibold {
+  font-family: "Lora", system-ui;
+  font-weight: 600;
+  font-style: normal;
+}
