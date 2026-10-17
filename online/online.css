@@ -1,0 +1,42 @@
+:root {
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-heading: "Playfair Display", Georgia, serif;
+
+  --aa-online-shadow: 0 10px 30px rgba(118, 17, 45, 0.12);
+  --aa-online-shadow-lg: 0 18px 40px rgba(118, 17, 45, 0.2);
+  --aa-online-ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-coffee-bean);
+  margin: 0;
+}
+
+.aa-online-section {
+  min-height: 400px;
+  padding-bottom: 4rem;
+}
+
+.aa-online-hero__intro {
+  position: relative;
+  overflow: hidden;
+}
+
+.aa-online-hero__intro::before {
+  content: "";
+  position: absolute;
+  right: -30px;
+  top: -30px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: var(--color-sweet-salmon);
+  opacity: 0.55;
+}
+
+.aa-online-video-card {
+  transition:
+    box-shadow 0.35s var(--aa-online-ease),
+    border-color 0.35s var(--aa-online-ease);
+}
